@@ -28,6 +28,8 @@ nav a:hover {
     font-size: 30px;
     text-decoration: underline;
 }
+
+/* Start  */
 .start{
     background-image: url('https://i.cdn.newsbytesapp.com/images/l197_30731593416614.jpg');
     height:100vh;
@@ -74,7 +76,7 @@ h2:hover {
     font-size: 60px;
     color: black;
 }
-
+/* about me section */
 .about {
     /* border:2px solid green; */
     background-image: url('https://c4.wallpaperflare.com/wallpaper/970/409/152/stripes-vertical-shade-texture-wallpaper-preview.jpg');
@@ -120,11 +122,25 @@ button:hover {
     cursor: pointer;
 }
 
+
+/* video */
+.about_video {
+    /* border:2px solid green; */
+    background-image: url('https://c4.wallpaperflare.com/wallpaper/970/409/152/stripes-vertical-shade-texture-wallpaper-preview.jpg');
+    height: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+}
+
 .video {
     margin: 20px 30px;
     
 }
+/* carrer section - no styles required */
 
+    /* wikipidea section */
 .wiki {
     /* border: 2px solid yellow; */
     height: 390px;
@@ -133,6 +149,16 @@ button:hover {
     background-color: rgba(255, 0, 0, .19);
 }
 
+/* writing section */
+.about_writing{
+    /* border:2px solid green; */
+    background-image: url('https://c4.wallpaperflare.com/wallpaper/970/409/152/stripes-vertical-shade-texture-wallpaper-preview.jpg');
+    height: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+}
 .writing {
     width: 550px;
     height: 408px;
@@ -191,7 +217,16 @@ input {
     cursor: pointer;
     text-decoration: underline;
 }
-
+/* award section */
+.about_awards{
+    /* border:2px solid green; */
+    background-image: url('https://c4.wallpaperflare.com/wallpaper/970/409/152/stripes-vertical-shade-texture-wallpaper-preview.jpg');
+    height: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+}
 .awards {
     height: 394px;
     width: 655px;
@@ -223,7 +258,7 @@ ul li {
     margin: 30px;
 
 }
-
+/* footer section */
 .footer {
     width: 100%;
     height: 100px;
@@ -253,25 +288,176 @@ ul li {
     ;
 }
 
+/* media query for phone */
+@media only screen and (max-width:600px){
+    /* navbar */
+    nav a {
+    
+        color: white;
+        text-decoration: none;
+        align-items: center;
+        margin-left: 40px;
+        font-family: 'Courgette', cursive;
+        font-size: 14px;
+        /* background-color: black; */
+    }
+    
+/* start-background image-hi  */
+.start{
+    width:100%;
+}
+.intro {
+    /* border:2px solid yellow; */
+    width:145px;
+    height:150px;
+    margin-top: 40px;
+    margin-left: 440px;
+}
+h1 {
+    font-size: 20px;
+}
+h2 {
+    font-size: 15px;
+}
+/* Aboutme */
+p {
+    font-size: 13px;
+    margin: 15px;
+}
+button {
+    width: 150px;
+    font-size: 10px;
+    margin-left: 40%;
+}
+/* video section */
+.about_video{
+    height: 920px;
+    flex-wrap: wrap;
+}
+/* carrer section -no style-no media query */
+/* wikiepedia section -no style-no media query */
 
-
-
-
-
-/* input {
-    margin-left: 170px;
-    border: 5px ridge black;
-    border-radius: 10px;
-    width: 300px;
-    height: 25px;
-    text-align: left;
-    font-size: 18px;
-    font-family:'Courgette', cursive ;
+/* writing section */
+.about_writing {
+    /* border:2px solid green; */
+    height: 1000px;
+    flex-wrap: wrap;
+}
+.prod-desc{
+    padding-top: 60px;
+    height:341px
+}
+/* award section  and location*/
+.about_awards{
+    /* border:2px solid green; */
+    height: 900px;
+    flex-wrap: wrap;
+}
+.loca_frame{
+    width: 500px;
 }
 
-.fa-magnifying-glass {
+/* footer */
+.contact-logo {
+    font-size: 15px;
+    margin-left: 25px;
+} 
+}
+
+/* media query for tablet */
+
+@media ((min-width:601px) and (max-width:990px)){
+/* navbar */
+nav a {
+    margin-left: 80px;
+    font-size: 20px;
+    /* background-color: black; */
+}
+/* start-background image-hi  */
+.start{
+    width:100%;
+}
+.intro {
+    border:2px solid yellow;
+    width:145px;
+    height:170px;
+    margin-top: 20px;
+    margin-left: 730px;
+}
+h1 {
+    font-size: 20px;
+}
+h2 {
+    font-size: 20px;
+}
+/* Aboutme */
+p {
+    font-size: 17px;
+    margin: 15px;
+}
+button {
+    width: 180px;
+    font-size: 10px;
+    margin-left: 40%;
+}
+/* video section */
+.about_video{
+    height: 450px;
+    /* width:400px; */
+    flex-wrap: wrap;
+}
+.video_frame{
+    width: 430px;
+}
+/* carrer section -no style-no media query */
+/* wikiepedia section -no style-no media query */
+
+/* writing section */
+.about_writing {
+    /* border:2px solid violet; */
+    height: 889px;
+    flex-wrap: wrap;
+}
+.writing {
+    width: 650px;
+    height: 408px;
+    /* border:2px solid blue; */
+    flex-wrap: wrap;
+}
+
+.image {
+    width: 250px;
+    height: 400px;
+    /* border:3px solid red; */
+}
+.prod-desc{
+    width:390px;
+    /* border:3px solid green; */
+    padding-top: 60px;
+    height:341px
+}
+/* Award */
+.about_awards{
+    /* border:2px solid green; */
+    height: 900px;
+    flex-wrap: wrap;
+}
+.loca_frame{
+    width: 800px;
+}
+/* footer */
+.contact-logo {
+    font-size: 20px;
+    margin-left: 371px;
+} 
+}
+
+
+
+
+
+/* .fa-magnifying-glass {
     color: white;
     margin-left: 5px;
-    font-size: 22px;
-
-} */
+    font-size: 22px; */
+/* } */
