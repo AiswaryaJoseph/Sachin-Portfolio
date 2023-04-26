@@ -141,6 +141,14 @@ button:hover {
 /* carrer section - no styles required */
 
     /* wikipidea section */
+    .about_wiki{
+        background-image: url('https://c4.wallpaperflare.com/wallpaper/970/409/152/stripes-vertical-shade-texture-wallpaper-preview.jpg');
+    height: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+    }
 .wiki {
     /* border: 2px solid yellow; */
     height: 390px;
@@ -168,7 +176,7 @@ button:hover {
     justify-content: space-around;
 }
 
-.image {
+.image a img {
     width: 250px;
     height: 400px;
     /* border:3px solid red; */
@@ -242,6 +250,14 @@ ul li {
     font-family: 'Courgette', cursive;
     margin-left: 20px;
 }
+.about_awards_table{
+    background-image: url('https://c4.wallpaperflare.com/wallpaper/970/409/152/stripes-vertical-shade-texture-wallpaper-preview.jpg');
+    height: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+}
 
 .table {
     color: white;
@@ -259,6 +275,14 @@ ul li {
 
 }
 /* footer section */
+.about_loca{
+    background-image: url('https://c4.wallpaperflare.com/wallpaper/970/409/152/stripes-vertical-shade-texture-wallpaper-preview.jpg');
+    height: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly; 
+}
 .footer {
     width: 100%;
     height: 100px;
@@ -289,14 +313,15 @@ ul li {
 }
 
 /* media query for phone */
-@media only screen and (max-width:600px){
+@media only screen and (max-width:450px){
     /* navbar */
     nav a {
     
         color: white;
         text-decoration: none;
         align-items: center;
-        margin-left: 40px;
+        margin-left: 10px;
+        margin-top:10px;
         font-family: 'Courgette', cursive;
         font-size: 14px;
         /* background-color: black; */
@@ -305,13 +330,15 @@ ul li {
 /* start-background image-hi  */
 .start{
     width:100%;
+    height:300px;
+    flex-direction: row;
 }
 .intro {
     /* border:2px solid yellow; */
-    width:145px;
+    width:245px;
     height:150px;
-    margin-top: 40px;
-    margin-left: 440px;
+    margin-top:100px;
+    margin-left: 30px;
 }
 h1 {
     font-size: 20px;
@@ -320,6 +347,14 @@ h2 {
     font-size: 15px;
 }
 /* Aboutme */
+.about{
+    height:708px;
+}
+.about-me {
+    height: 590px;
+    margin-top: 50px;
+    margin-left: 30px;
+  }
 p {
     font-size: 13px;
     margin: 15px;
@@ -327,129 +362,298 @@ p {
 button {
     width: 150px;
     font-size: 10px;
-    margin-left: 40%;
+    margin-left: 90px;
+    margin-top: 30px;
 }
 /* video section */
 .about_video{
-    height: 920px;
+    height: 800px;
     flex-wrap: wrap;
+}
+.video iframe{
+    width:300px;
+    height:350px;
 }
 /* carrer section -no style-no media query */
-/* wikiepedia section -no style-no media query */
+/* wikiepedia sectin */
+.wiki {
+    /* border: 2px solid yellow; */
+    margin: 30px 20px;
+}
 
 /* writing section */
-.about_writing {
-    /* border:2px solid green; */
-    height: 1000px;
+.about_writing{
+    height: 1315px;
     flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
 }
-.prod-desc{
-    padding-top: 60px;
-    height:341px
+.writing {
+    width: 350px;
+    height: 614px;
+    /* border:2px solid yellow; */
+    margin-left: 23px;
+    flex-wrap: wrap;
+    flex-direction:row;
 }
-/* award section  and location*/
+.image a img {
+    width: 200px;
+    height: 301px;
+    margin-left: 4px;
+        /* border:3px solid red; */
+}
+.prod-desc {
+    height: 300px;
+    width: 250px;
+    margin-left: 0px;
+    background-color: rgba(0, 0, 255, .19);
+    /* border:2px solid blue; */
+}
+h3 {
+    font-family: 'Courgette', cursive;
+    font-size: 14px;
+}
+.prod-desc button {
+    color: yellow;
+    width: 100px;
+    font-size: 12px;
+    margin-left: 16px;
+}
+
+
+/* award section of list*/
 .about_awards{
     /* border:2px solid green; */
-    height: 900px;
+    height: 855px;
     flex-wrap: wrap;
 }
+.awards {
+    height: 377px;
+    width: 655px;
+    font-size: 12px;
+       border-top-right-radius: 26%;
+    border-bottom-left-radius: 28%;
+}
+/* award section for table */
+.about_awards_table{
+    height: 655px;
+    flex-wrap: wrap;
+}
+.table {
+    font-size: 12px;
+    height: 267px;
+    width: 655px;
+    /* background-color:rgba(255, 255, 0,.12) ;
+    border:2px solid yellow; */
+    /* background-color: rgba(211, 51, 51, .34); */
+    /* border: 2px solid brown; */
+    border-top-right-radius: 28%;
+    border-bottom-left-radius: 28%;
+    /* margin: 30px; */
+
+}
+/* media query-location iframe */
+.about_loca{
+    height: 470px;
+   }
 .loca_frame{
-    width: 500px;
+    width: 350px;
 }
 
 /* footer */
+
+.footer {
+    height: 100px;
+    /* border:2px solid magenta; */
+    background-color: rgba(0, 0, 0, .75);
+    flex-wrap: wrap;
+    align-items:flex-start;
+    justify-content: flex-start;
+}
+
+.footer a {
+    margin-top: 8px;
+    margin-left: 4px;
+    font-size: small;
+}
+
 .contact-logo {
-    font-size: 15px;
-    margin-left: 25px;
-} 
+    font-size: 10px;
+    margin-left: 73px;
+    margin-top:8px;
+}
+
+.f1 {
+    margin: 5px;
+}
+
 }
 
 /* media query for tablet */
 
-@media ((min-width:601px) and (max-width:990px)){
+@media ((min-width:451px) and (max-width:990px)){
 /* navbar */
 nav a {
-    margin-left: 80px;
+    margin-left: 60px;
+    margin-top:10px;
     font-size: 20px;
     /* background-color: black; */
 }
 /* start-background image-hi  */
 .start{
     width:100%;
+    height:300px;
+    flex-direction: row;
 }
 .intro {
-    border:2px solid yellow;
-    width:145px;
-    height:170px;
-    margin-top: 20px;
-    margin-left: 730px;
+    /* border:2px solid yellow; */
+    width:245px;
+    height:219px;
+    margin-top:36px;
+    margin-left: 30px;
 }
 h1 {
-    font-size: 20px;
+    font-size: 30px;
 }
 h2 {
-    font-size: 20px;
+    font-size: 25px;
 }
 /* Aboutme */
+.about{
+    height:508px;
+}
+.about-me {
+    height: 450px;
+    margin-top: 30px;
+    margin-left: 30px;
+  }
 p {
     font-size: 17px;
     margin: 15px;
 }
 button {
-    width: 180px;
-    font-size: 10px;
-    margin-left: 40%;
+    width: 250px;
+    font-size: 17px;
+    margin-left: 35%;
+    margin-top: 5px;
 }
 /* video section */
 .about_video{
-    height: 450px;
-    /* width:400px; */
+    height: 404px;
     flex-wrap: wrap;
 }
-.video_frame{
-    width: 430px;
+.video iframe{
+    margin-top: 10px;
+    width:320px;
+    height:350px;
 }
 /* carrer section -no style-no media query */
-/* wikiepedia section -no style-no media query */
-
+/* wikiepedia sectin */
+.wiki {
+    /* border: 2px solid yellow; */
+    margin: 30px 20px;
+}
 /* writing section */
-.about_writing {
-    /* border:2px solid violet; */
-    height: 889px;
+.about_writing{
+    height: 770px;
     flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
 }
 .writing {
     width: 650px;
-    height: 408px;
-    /* border:2px solid blue; */
+    height: 301px;
+    /* border:2px solid yellow; */
+    margin-left: 84px;
     flex-wrap: wrap;
 }
-
-.image {
-    width: 250px;
-    height: 400px;
-    /* border:3px solid red; */
+.image a img {
+    width: 220px;
+    height: 301px;
+        /* border:3px solid red; */
 }
-.prod-desc{
-    width:390px;
-    /* border:3px solid green; */
-    padding-top: 60px;
-    height:341px
+.prod-desc {
+    height: 300px;
+    width: 420px;
+    background-color: rgba(0, 0, 255, .19);
+    /* border:2px solid blue; */
 }
-/* Award */
+h3 {
+    font-family: 'Courgette', cursive;
+    font-size: 14px;
+}
+.prod-desc button {
+    color: yellow;
+    width: 150px;
+    font-size: 12px;
+    margin-left: 36px;
+}
+/* award section of list*/
 .about_awards{
     /* border:2px solid green; */
-    height: 900px;
+    height: 555px;
     flex-wrap: wrap;
+    margin-top: 20px;
 }
+.awards {
+    height: 500px;
+    width: 365px;
+    font-size: 16px;
+       border-top-right-radius: 26%;
+    border-bottom-left-radius: 28%;
+}
+/* award section for table */
+.about_awards_table{
+    height: 350px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.table {
+    font-size: 14px;
+    height: 317px;
+    width: 355px;
+    /* border:2px solid yellow;  */
+    border-top-right-radius: 28%;
+    border-bottom-left-radius: 28%;
+
+}
+/* media query-location iframe */
+.about_loca{
+    height: 460px;
+    /* border:2px solid red; */
+   }
 .loca_frame{
-    width: 800px;
+    width: 750px;
 }
+
 /* footer */
+
+.footer {
+    height: 993px;
+    /* border:2px solid magenta; */
+    background-color: rgba(0, 0, 0, .75);
+    flex-wrap: wrap;
+    align-items:flex-start;
+    justify-content: flex-start;
+}
+
+.footer a {
+    margin-top: 14px;
+    margin-left: 84px;
+    font-size: medium;
+}
+
 .contact-logo {
     font-size: 20px;
-    margin-left: 371px;
-} 
+    margin-left: 173px;
+    margin-top:8px;
+}
+
+.f1 {
+    margin: 5px;
+}
 }
 
 
